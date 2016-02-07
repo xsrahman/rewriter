@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRewriter", "TextRewrite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRewriterTest", "TextRewriterTest\TextRewriterTest.csproj", "{ADB0E770-BAA7-4AC3-9C72-5F8FE43FD34B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRewriterWinClient", "TextRewriterWinClient\TextRewriterWinClient.csproj", "{BEAE86CB-A03A-4563-8B31-27B022A59D4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ADB0E770-BAA7-4AC3-9C72-5F8FE43FD34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB0E770-BAA7-4AC3-9C72-5F8FE43FD34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB0E770-BAA7-4AC3-9C72-5F8FE43FD34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAE86CB-A03A-4563-8B31-27B022A59D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAE86CB-A03A-4563-8B31-27B022A59D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAE86CB-A03A-4563-8B31-27B022A59D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAE86CB-A03A-4563-8B31-27B022A59D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,33 @@
+﻿<Window x:Class="TextRewriterWinClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextRewriterWinClient"
+        mc:Ignorable="d"
+        Title="TextRewriter" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300*"/>
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+        <RichTextBox x:Name="rtbToRewrite" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Margin="1,1,1,86">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="rtbRewritten" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Margin="1,1,1,86" IsReadOnly="True">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="bRewrite" Content="Rewrite" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Bottom" Height="38" Grid.ColumnSpan="2" Click="bRewrite_Click"/>
+        <Button x:Name="bPaste" Content="Paste" HorizontalAlignment="Stretch" Margin="0,0,0,43" VerticalAlignment="Bottom" Height="38" Click="bPaste_Click" />
+        <Button x:Name="bCopy" Content="Copy" HorizontalAlignment="Stretch" Margin="0,0,0,43" VerticalAlignment="Bottom" Height="38" Grid.Column="1" Click="bCopy_Click"/>
+
+    </Grid>
+</Window>
